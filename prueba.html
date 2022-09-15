@@ -9,19 +9,76 @@
 <body>
     <header>
         <!--aquí va el logo-->
-        <h1>Título de la página</h1>
+        <img src="img/TU_LIBRERIA_LOGO-removebg-preview.png" alt="logo biblioteca" height="200px" width="300">
+        <!--aquí va el título-->
+        <h1>Librería Piratica</h1>
         <!--aquí va el menú-->
         <nav>
             <ul>
-                <li> Lista 1</li>
-                <li> Lista 2</li>
-                <li> Lista 3</li>
+                <li> <a href="https://www.filmin.es/blog/los-21-grandes-autores-de-la-historia-de-la-literatura//" target="_blank">Autores</a></li>
+                <li> <a href="https://www.abc.es/cultura/cultural/abci-100-mejores-libros-literatura-universal-201806030125_noticia.html" target="_blank">Títulos</a></li>
+                <li> <a href="https://wayraeduca.com/generos-literarios/" target="_blank">Géneros</a></li>
             </ul>
         </nav>
     </header>
     <main>
     <!--header colocar los logos, título de la página, menu-->
-        <h2>Título 2</h2>
+        <h2>Ejemplo formulario</h2>
+        <form>
+            <label for="nombres">Ingresar nombres</label>
+            <input id="nombres" type="text" placeholder="Ingresar nombres en placeholder" required="true">
+            <br>
+            <br>
+            <label for="fecha">Ingresar fecha</label>
+            <input id="fecha" type="date">
+            <br>
+            <br>
+            <label for="estado">Estado del libro</label>
+            <select id="estado">
+                <option value="1">Prestado</option>
+                <option value="2">Disponible</option>
+                <option value="3">Reservado</option>
+            </select>
+            <br><br>
+            <label id="observaciones" for="observaciones">Observaciones</laber>
+            <textarea id="observaciones" cols="50" rows="5" required></textarea>
+            <br>
+            <br>
+            <label id="femenino">Femenino</label>
+            <input type="radio" name="género" value="femenino">
+            <br>
+            <br>
+            <label id="masculino">Masculino</label>
+            <input type="radio" name="genero" value="masculino">
+            <br>
+            <br>
+            <label id="generos" for="generos">Ingresar género</label>
+            <label id="ficcion">Ficción</label>
+            <input type="checkbox" nacme="generos" value="ficcion">
+            <label id="cronica">Crónica</label>
+            <input type="checkbox" nacme="generos" value="cronica">
+            <label id="economia">Economía</label>
+            <input type="checkbox" nacme="generos" value="economía">
+            <br>
+            <br>
+            <input type="submit" value="Guardar"/>
+        </form>
+        <table border="1">
+            <tr>
+                <th>lunes</th>
+                <th>martes</th>
+                <th>miércoles</th>
+                <th>jueves</th>
+                <th>viernes</th>
+            </tr>
+            <th>
+                <td>Done</td>
+                <td>Done</td>
+                <td>Done</td>
+                <td>Done</td>
+            </th>
+        
+        </table>
         <h3>Título 3</h3>
         <h4>Título 4</h4>
         <h5>Título 5</h5>
