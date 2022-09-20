@@ -112,3 +112,21 @@ footer{
     background-color: black;
 
 }
+.enlaces{
+    width: 30%;
+    height: 220px;
+    float: left;
+    color: white;
+}
+.redes_sociales{
+    width: 30%;
+    height: 220px;
+    float: left;
+    color: white;
+}
+.proyecto{
+    width: 30%;
+    height: 220px;
+    float: left;
+    color: white;
+}
