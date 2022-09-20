@@ -1,0 +1,52 @@
+body{
+    background-color: azure;
+}
+h2{
+    color:white;
+    background-color: black;
+    font-size: 20px;
+}
+.caja_principal{
+    width: 100%;
+    height: 200px;
+    background-color:cornflowerblue
+}
+.caja_titulo{
+    margin:0px;
+    width: 50%;
+    height: 150px;
+    background-color:aquamarine;
+}
+.caja_logo{
+    width: 50%;
+    height: 200px;
+    background-color: aquamarine;
+    margin-left: 50%;
+    position: relative;
+}
+.caja_logo img{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.caja_menu{
+    background-color:rgb(136, 164, 223);
+    width: 50%;
+    margin-left: 25%;
+    text-align:center;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    width: 20%;
+    height: 20px;
+    background-color:darkcyan;
+    text-align: center;
+    padding: 2px;
+}
+
+#parrafo_texto{
+    color:darkblue
+}

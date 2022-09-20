@@ -43,55 +43,54 @@
         <!--header colocar los logos, título de la página, menu-->
             <h2>Ejemplo formulario</h2>
             <form>
-                <label class="label_form" for="nombres" >Ingresar nombres</label>
-                <input class="input_form" id="nombres" type="text" placeholder="Ingresar nombres en placeholder" required="true">
+                <label for="nombres" style="width: auto;color:rgb(0, 0, 0)">Ingresar nombres</label>
+                <input id="nombres" type="text" placeholder="Ingresar nombres en placeholder" required="true">
                 <br>
                 <br>
-                <label class="label_form" for="fecha">Ingresar fecha</label>
-                <input class="input_form" id="fecha" type="date">
+                <label for="fecha">Ingresar fecha</label>
+                <input id="fecha" type="date">
                 <br>
                 <br>
-                <label class="label_form" for="estado">Estado del libro</label>
-                <select class="input_form select_form" id="estado">
+                <label for="estado">Estado del libro</label>
+                <select id="estado">
                     <option value="1">Prestado</option>
                     <option value="2">Disponible</option>
                     <option value="3">Reservado</option>
                 </select>
                 <br><br>
-                <label class="label_form" id="observaciones" for="observaciones">Observaciones</label>
-                <textarea class="input_form" id="observaciones" cols="50" rows="5" required></textarea>
+                <label id="observaciones" for="observaciones">Observaciones</laber>
+                <textarea id="observaciones" cols="50" rows="5" required></textarea>
                 <br>
                 <br>
-                <label class="label_form" id="género">Género</label>
                 <label id="femenino">Femenino</label>
                 <input type="radio" name="género" value="femenino">
+                <br>
+                <br>
                 <label id="masculino">Masculino</label>
                 <input type="radio" name="genero" value="masculino">
                 <br>
                 <br>
-                <label class="label_form" id="generos" for="generos">Géneros literarios</label>
+                <label id="generos" for="generos">Ingresar género</label>
                 <label id="ficcion">Ficción</label>
-                <input type="checkbox" name="generos" value="ficcion">
+                <input type="checkbox" nacme="generos" value="ficcion">
                 <label id="cronica">Crónica</label>
-                <input type="checkbox" name="generos" value="cronica">
+                <input type="checkbox" nacme="generos" value="cronica">
                 <label id="economia">Economía</label>
-                <input type="checkbox" name="generos" value="economía">
+                <input type="checkbox" nacme="generos" value="economía">
                 <br>
                 <br>
-                <input class="button_form" type="submit" value="Cancelar"/>
-                <input class="button_form" type="submit" value="Guardar"/>
+                <input type="submit" value="Guardar"/>
             </form>
-            <br><br>
-            <table class="estilo_tabla" border="1">
+            <table border="1">
                 <thead>
                 <tr>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miércoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
+                    <th>lunes</th>
+                    <th>martes</th>
+                    <th>miércoles</th>
+                    <th>jueves</th>
+                    <th>viernes</th>
                 </tr>
-                    <td>Done</td>
+                <th>
                     <td>Done</td>
                     <td>Done</td>
                     <td>Done</td>
