@@ -117,16 +117,83 @@ footer{
     height: 220px;
     float: left;
     color: white;
+    text-align: center;
 }
 .redes_sociales{
     width: 30%;
     height: 220px;
     float: left;
     color: white;
+    text-align: center;
 }
 .proyecto{
     width: 30%;
     height: 220px;
     float: left;
     color: white;
+    text-align: center;
 }
+@media screen and (max-width:640px){
+    .caja_logo{
+        width: 100%;
+        height: 150px;
+        background-color: azure;
+        position:relative;
+    }
+    .caja_titulo{
+        width: 100%;
+        height: 100px;
+        background-color: bisque;
+
+        text-align: center;
+    }
+    .caja_menu{
+        width: 100%;
+        height: 150px;
+        background-color: cornflowerblue;
+        margin-left: 0%;
+        margin-right: 0%;
+        position:relative;
+    }
+    form{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-color: aliceblue;
+        text-align: left;
+    }
+    .label_form{
+        width: 100%;
+        display:inline-block;
+    }
+    .input_form{
+        width: 100%;
+        display: inline-block;
+    }
+    .button_form{
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .estilo_tabla{
+        width: 50%;
+        font-size: 12px;
+    }
+    footer{
+        width: 100%;
+        height: 750px;
+        background-color: black;
+    }
+    .enlaces{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .redes_sociales{
+        width: 100%;
+    }
+    .proyecto{
+        width: 100%;
+    }
+
+}
+
+    
