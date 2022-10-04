@@ -43,7 +43,7 @@ document.write("<p class= 'alinear'>"+materias.sort ()+"</p>");
 
 document.write ("<p class='fs-1 alinear'>.fs-1 text</p>");
 
-/*var edad=(prompt("Ingrese edad"));
+var edad=(prompt("Ingrese edad"));
 if(edad<18){
     alert("es menor de edad");
 
@@ -57,7 +57,6 @@ else if(edad>70){
 else{
     alert("es mayor de edad");
 }
-*/
 
 var i;
 //ejercicio for
