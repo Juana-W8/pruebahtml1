@@ -113,6 +113,12 @@ ul li a:hover{
 
 }
 
+.boton-formulario{
+    width: 40%;
+    height: 30px;
+    
+}
+
 .alinear{
     text-align: center;
     color: brown;

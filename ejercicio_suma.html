@@ -41,23 +41,30 @@
         <div class="row">
                 <div class="col-1 col-md-3 formulario1"></div>
                 <div class="col-12 col-md-6 formulario2">
-                    <form>
+                    <!--ojo en el form  debe ir onsubmit return false-->
+                    <form id="formulario_sumar" onsubmit="return false">
                         <!--Se creo un estilo sobre la etiqueta label-->
                         <label class="label-form" id="label_numero1" for="numero1">Ingresar número 1</label>
                         <input class="form-control" id="numero1" type="number"  required="true"  />
-                        <br /><br />
-                        <label class="label-form"  id="label_numero2" for="numero2">Ingresar numero 2</label>
-                        <input class="form-control" id="numero2" type="number"  required="true"   maxlength="4"  />
+                        <p id="parrafo_validar_numero1" class="text-success"></p>
+                    
 
+                        <label class="label-form"  id="label_numero2" for="numero2">Ingresar numero 2</label>
+                        <input class="form-control" id="numero2" type="number" />
+                        <p id="parrafo_validar_numero2" class="text-success"></p>
+                        
+
+                      
                         </input>
                         <br /><br />
-                        <input class="boton-form" type="submit" value="Cancelar" />
-                        <input class="boton-form" type="submit" value="Sumar" onclick="sumar()"/>
+                        <input class="btn btn-outline-primary boton-formulario" type="submit" value="Cancelar" id="btnCancelar"/>
+                        <input class="btn btn-outline-primary boton-formulario" type="submit" value="Calculadora" id="btnSumar" onclick="realizar_operaciones_matematicas()"/>
                     </form>
+                    <br /><br />
 
-                    <p>parrafo 1</p>
-                    <p>párrafo 2</p>
-                    <p>párrafo 3</p>
+                    <div id="div_sumar" class="p-3 mb-2 bg-primary text-white"></div>
+                    <div id="div_restar" class="p-3 mb-2 bg-secondary text-white"></div>
+                    <div id="div_multiplicar" class="p-3 mb-2 bg-success text-white"></div>
 
 
 
@@ -66,6 +73,9 @@
         </div>
     </div>
     <br/> <br/> <br/> <br/> <br/>
+    <div id="caja-crear-etiquetas">
+        
+    </div>
     <h4 style="text-align: center">ejercicios javascript</h4>
     <script src="js/suma.js"> </script>
 </body>
